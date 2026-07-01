@@ -9,11 +9,10 @@ acessível e otimizado para SEO.
 ## Estrutura
 
 ```
-site/
-├── index.html        # Página (HTML semântico, Open Graph, JSON-LD LocalBusiness)
-├── css/styles.css    # Sistema de design, layout e animações
-├── js/main.js        # Menu mobile, scroll-reveal, WhatsApp flutuante
-└── img/              # Fotos das peças e do ateliê
+index.html            # Página (HTML semântico, Open Graph, JSON-LD LocalBusiness)
+css/styles.css        # Sistema de design, layout e animações
+js/main.js            # Menu mobile, scroll-reveal, WhatsApp flutuante
+img/                  # Fotos das peças e do ateliê
 
 landing-page-para-loja-de-bijuterias/
 └── ...               # Bundle de design original (Claude Design)
@@ -21,13 +20,18 @@ landing-page-para-loja-de-bijuterias/
 
 ## Rodar localmente
 
-Basta servir a pasta `site/` com qualquer servidor estático, por exemplo:
+Basta servir a raiz do projeto com qualquer servidor estático, por exemplo:
 
 ```bash
-npx http-server site -p 4321
+npx http-server . -p 4321
 ```
 
 E abrir http://localhost:4321.
+
+## Publicação (GitHub Pages)
+
+O `index.html` está na raiz, então é só ativar em **Settings → Pages →
+Deploy from a branch → `main` / `/ (root)`**.
 
 ## Destaques
 
