@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background:#efe7d9; }
+  .ph { display:flex; align-items:center; justify-content:center; text-align:center; font-family:'Space Grotesk',monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#a2937c; background:repeating-linear-gradient(45deg,#e0d4bf,#e0d4bf 11px,#e9dfcd 11px,#e9dfcd 22px); }
+</style>
+</helmet>
+
+<div style="width:100%; max-width:1280px; margin:0 auto; background:#efe7d9; font-family:'DM Sans',sans-serif; overflow:hidden;">
+
+  <!-- full-bleed hero -->
+  <div style="position:relative; height:640px;">
+    <img src="img/pingente.png" alt="Pingente" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(38,28,20,.55) 0%,rgba(38,28,20,.15) 40%,rgba(38,28,20,.72) 100%);"></div>
+    <div style="position:relative; z-index:2; display:flex; flex-direction:column; height:100%; padding:34px 56px 60px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; color:#f7f0e6;">
+        <div style="font-family:'Playfair Display',serif; font-size:26px; font-style:italic;">Raquel Guerra Bijouterias</div>
+        <div style="display:flex; align-items:center; gap:32px; font-size:13px; letter-spacing:.14em; text-transform:uppercase;">
+          <a href="#pecas" style="color:#f7f0e6; text-decoration:none;">Peças</a>
+          <a href="#atelie" style="color:#f7f0e6; text-decoration:none;">Ateliê</a>
+          <a href="#loja" style="color:#f7f0e6; text-decoration:none;">Loja</a>
+          <a href="https://wa.me/5531998121202" style="color:#f7f0e6; border:1px solid rgba(247,240,230,.6); padding:9px 18px; border-radius:100px; text-decoration:none;">WhatsApp</a>
+        </div>
+      </div>
+      <div style="margin-top:auto; max-width:760px;">
+        <div style="font-size:13px; letter-spacing:.3em; text-transform:uppercase; color:#e6b98a; margin-bottom:20px;"><b style="color: #F18829; font-size: 16px; font-weight: 600">Bijuterias autorais · feitas à mão</b></div>
+        <h1 style="font-family:'Playfair Display',serif; font-weight:500; font-size:76px; line-height:1; color:#fff; margin:0 0 24px; letter-spacing:-.01em;">O gesto da mão<br><span style="font-style:italic;">em cada peça</span></h1>
+        <p style="font-size:18px; line-height:1.6; color:#ece2d3; max-width:480px; margin:0 0 32px;">Vidro fundido, latão e couro. Uma coleção que mora entre a joalheria e a arte.</p>
+        <a href="https://wa.me/5531998121202" style="display:inline-flex; align-items:center; gap:9px; background:#25D366; color:#0b3d1f; font-weight:700; padding:15px 28px; border-radius:100px; text-decoration:none; font-size:15px;">Falar no WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- editorial intro -->
+  <div id="pecas" style="display:grid; grid-template-columns:auto 1fr; gap:36px; padding:70px 56px 40px; align-items:start;">
+    <div style="font-family:'Playfair Display',serif; font-size:64px; color:#c98a4b; line-height:1;">01</div>
+    <div style="max-width:620px;">
+      <h2 style="font-family:'Playfair Display',serif; font-weight:500; font-size:34px; color:#3a2c22; margin:0 0 16px; line-height:1.15;">Peças que contam a mão de quem faz</h2>
+      <p style="font-size:17px; line-height:1.8; color:#645846;">Nada é produzido em série. Cada joia passa pelo forno, pela bancada e pelo olhar — até virar única. É bijuteria com alma de ateliê.</p>
+    </div>
+  </div>
+
+  <!-- asymmetric product grid -->
+  <div style="display:grid; grid-template-columns:1.4fr 1fr; gap:20px; padding:20px 56px 70px;">
+    <div style="position:relative;">
+      <img src="img/aneis.png" style="width:100%; height:440px; object-fit:cover; border-radius:14px;">
+      <div style="position:absolute; left:24px; bottom:24px; background:#efe7d9; padding:14px 20px; border-radius:10px;">
+        <div style="font-family:'Playfair Display',serif; font-size:22px; color:#3a2c22;">Anéis Prisma</div>
+        <div style="font-size:13px; color:#8a7c68; margin-top:2px;">Vidro colorido · ajustáveis</div>
+      </div>
+    </div>
+    <div style="display:grid; grid-template-rows:1fr 1fr; gap:20px;">
+      <div style="position:relative;">
+        <img src="img/brincos.png" style="width:100%; height:100%; object-fit:cover; border-radius:14px;">
+        <div style="position:absolute; left:20px; bottom:20px; background:#efe7d9; padding:11px 16px; border-radius:9px; font-family:'Playfair Display',serif; font-size:18px; color:#3a2c22;">Brincos Maré</div>
+      </div>
+      <div style="position:relative;">
+        <div class="ph" style="width:100%; height:100%; border-radius:14px;">foto do produto</div>
+        <div style="position:absolute; left:20px; bottom:20px; background:#efe7d9; padding:11px 16px; border-radius:9px; font-family:'Playfair Display',serif; font-size:18px; color:#3a2c22;">Colar Folha</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ateliê editorial dark -->
+  <div id="atelie" style="display:grid; grid-template-columns:1fr 1fr; background:#3a2c22; color:#efe7d9; align-items:center;">
+    <img src="img/loja.png" style="width:100%; height:100%; object-fit:cover; min-height:420px;">
+    <div style="padding:70px 56px;">
+      <div style="font-family:'Playfair Display',serif; font-size:64px; color:#c98a4b; line-height:1; margin-bottom:18px;">02</div>
+      <h2 style="font-family:'Playfair Display',serif; font-weight:500; font-size:38px; color:#fff; margin:0 0 18px; line-height:1.12;">Um ateliê aberto ao público</h2>
+      <p style="font-size:16px; line-height:1.8; color:#d3c6b3; max-width:420px;">A loja é também oficina. Você vê de perto a qualidade, as cores e o processo — e leva para casa uma peça que acabou de nascer.</p>
+    </div>
+  </div>
+
+  <!-- loja + mapa -->
+  <div id="loja" style="display:grid; grid-template-columns:.9fr 1.1fr; padding:70px 56px; gap:44px; align-items:center;">
+    <div>
+      <div style="font-family:'Playfair Display',serif; font-size:64px; color:#c98a4b; line-height:1; margin-bottom:18px;">03</div>
+      <h2 style="font-family:'Playfair Display',serif; font-weight:500; font-size:34px; color:#3a2c22; margin:0 0 20px;">Venha nos visitar</h2>
+      <div style="font-size:16px; line-height:1.9; color:#645846;">R. Itaguaí, 441 - Alto Caiçaras,<br>Belo Horizonte - MG, 30775-110<br>Ter a Sáb · 09h às 17h</div>
+      <a href="https://wa.me/5531998121202" style="display:inline-flex; align-items:center; gap:9px; margin-top:26px; background:#25D366; color:#0b3d1f; font-weight:700; padding:15px 26px; border-radius:100px; text-decoration:none;">Falar no WhatsApp →</a>
+    </div>
+    <div style="position:relative; min-height:340px; border-radius:16px; overflow:hidden; box-shadow:0 20px 40px -22px rgba(58,44,34,.5);">
+      <iframe title="Mapa — R. Itaguaí, 441, Alto Caiçaras, Belo Horizonte" src="https://www.openstreetmap.org/export/embed.html?bbox=-43.9936%2C-19.8962%2C-43.9820%2C-19.8902&amp;layer=mapnik&amp;marker=-19.8932%2C-43.9878" style="width:100%; height:100%; min-height:340px; border:0; display:block;" loading="lazy"></iframe>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Itagua%C3%AD%2C%20441%20-%20Alto%20Cai%C3%A7aras%2C%20Belo%20Horizonte%20-%20MG%2C%2030775-110" target="_blank" rel="noopener" style="position:absolute; right:16px; bottom:16px; display:inline-flex; align-items:center; gap:8px; background:#3a2c22; color:#efe7d9; font-family:'DM Sans',sans-serif; font-size:13px; font-weight:600; padding:11px 18px; border-radius:100px; text-decoration:none; box-shadow:0 8px 18px rgba(0,0,0,.25);">Ver no Google Maps →</a>
+    </div>
+  </div>
+
+  <!-- instagram -->
+  <div style="padding:10px 56px 70px;">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:24px;">
+      <h2 style="font-family:'Playfair Display',serif; font-style:italic; font-weight:500; font-size:30px; color:#3a2c22; margin:0;">@raquelguerrabijouterias</h2>
+      <span style="font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:#8a7c68;">Siga o ateliê</span>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px;">
+      <img src="img/pingente.png" style="width:100%; height:180px; object-fit:cover; border-radius:12px;">
+      <img src="img/brincos.png" style="width:100%; height:180px; object-fit:cover; border-radius:12px;">
+      <img src="img/aneis.png" style="width:100%; height:180px; object-fit:cover; border-radius:12px;">
+      <div class="ph" style="height:180px; border-radius:12px;">reels</div>
+    </div>
+  </div>
+
+  <div style="padding:34px 56px; background:#3a2c22; color:#b6a892; display:flex; justify-content:space-between; align-items:center; font-size:13px;">
+    <span style="font-family:'Playfair Display',serif; font-style:italic; font-size:19px; color:#efe7d9;">Raquel Guerra Bijouterias</span>
+    <span>© 2026 · Feito à mão em São Paulo</span>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>
